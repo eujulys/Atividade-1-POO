@@ -25,9 +25,9 @@ public class ContaBancária {
     }
 
     public void sacar(ContaBancária conta){
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o valor de retirada");
-        int saldo = sc.nextInt();
+        int saldo = scanner.nextInt();
 
         conta.setSaldo(conta.saldo - saldo);
         System.out.print("Seu saldo é R$" + conta.saldo);
@@ -38,12 +38,12 @@ public class ContaBancária {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         ContaBancária conta = new ContaBancária("123", "João", 100);
 
         System.out.print("Digite o dígito referente operação que deseja realizar: \n1 - Depósito\n2 - Sacar\n3 - Saldo\n");
-        int operacao = sc.nextInt();
+        int operacao = scanner.nextInt();
 
         if(operacao == 1){
             conta.depositar(conta);

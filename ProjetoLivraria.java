@@ -30,16 +30,16 @@ public class ProjetoLivraria {
     }
 
     public void AlterarLivro(ProjetoLivraria livro){
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite um novo titulo");
-        String titulo = sc.nextLine();
+        String titulo = scanner.nextLine();
         System.out.print("Digite um numero de paginas");
-        int numeroDePaginas = sc.nextInt();
+        int numeroDePaginas = scanner.nextInt();
         System.out.print("Digite um novo ano de publicação");
-        int anoDePublicacao = sc.nextInt();
+        int anoDePublicacao = scanner.nextInt();
         System.out.print("Digite um novo preço");
-        double preco = sc.nextInt();
+        double preco = scanner.nextInt();
 
         livro.setTitulo(titulo);
         livro.setNumeroDePaginas(numeroDePaginas);

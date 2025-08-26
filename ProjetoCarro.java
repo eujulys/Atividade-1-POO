@@ -34,7 +34,7 @@ public class ProjetoCarro {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         ProjetoCarro carro = new ProjetoCarro("Honda", "HRV", 2010);
         ProjetoCarro carro2 = new ProjetoCarro("Fiat", "Mob", 2020);
 
@@ -48,11 +48,11 @@ public class ProjetoCarro {
         System.out.print("\n");
 
         System.out.print("Digite uma nova marca");
-        String marca = sc.nextLine();
+        String marca = scanner.nextLine();
         System.out.print("Digite um novo modelo");
-        String modelo = sc.nextLine();
+        String modelo = scanner.nextLine();
         System.out.print("Digite um novo ano");
-        int ano = sc.nextInt();
+        int ano = scanner.nextInt();
 
         carro2.setMarca(marca);
         carro2.setModelo(modelo);
