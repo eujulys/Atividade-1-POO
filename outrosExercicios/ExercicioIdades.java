@@ -1,3 +1,5 @@
+package outrosExercicios;
+
 public class ExercicioIdades {
     public static void main(String[] args) {
         int[] idades = {17, 25, 30, 16, 45, 18, 19, 22, 50, 14};

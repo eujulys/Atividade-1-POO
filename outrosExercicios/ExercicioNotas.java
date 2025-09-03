@@ -1,3 +1,5 @@
+package outrosExercicios;
+
 public class ExercicioNotas {
     public static void main(String[] args) {
         double[] notas = {8.5, 7.0, 9.5, 6.0};

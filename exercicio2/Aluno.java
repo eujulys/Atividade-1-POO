@@ -1,3 +1,5 @@
+package exercicio2;
+
 import java.util.Scanner;
 
 public class Aluno {
@@ -62,7 +64,7 @@ public class Aluno {
         double notaAv2 = sc.nextDouble();
         aluno1.setNotaAv2(notaAv2);
 
-        System.out.print("Aluno 1 atualizado: ");
+        System.out.print("exercicio2.Aluno 1 atualizado: ");
         aluno1.mostrarDados();
 
         sc.close();

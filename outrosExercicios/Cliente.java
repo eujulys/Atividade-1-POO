@@ -1,10 +1,12 @@
+package outrosExercicios;
+
 public class Cliente {
     String nome;
     String cpf;
     String email;
 
     public void visualizarCadastro() { 
-        System.out.println("Cadastro do Cliente");
+        System.out.println("Cadastro do outrosExercicios.Cliente");
         System.out.println("Nome: " + nome);
         System.out.println("CPF: " + cpf);
         System.out.println("E-mail: " + email);

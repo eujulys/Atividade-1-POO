@@ -1,3 +1,5 @@
+package exercicio4;
+
 import java.util.Scanner;
 
 public class ProjetoCarro {

@@ -1,4 +1,6 @@
-import java.util.Scanner; 
+package outrosExercicios;
+
+import java.util.Scanner;
 
 public class MaiorNotaAlunos {
 
